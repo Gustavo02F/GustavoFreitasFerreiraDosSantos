@@ -1,0 +1,55 @@
+html{
+    box-sizing: border-box;
+    background: url(../imagens/fundosobre.avif); /*Imagem de fundo*/
+    color: white;
+}
+
+header{
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    width: 30%;
+    text-align: left;
+}
+
+section{
+    margin: 10px;
+    font-size: 20px;
+    width: 35%;
+    float: left;
+    text-align: justify;
+}
+
+aside{
+    float: right;
+    margin: 15px;
+    padding: 25px;
+    background-color: white;
+}
+
+#img2{
+    display: block;
+}
+
+#img3{
+    display: block;
+    margin: 4px;
+}
+
+a{
+    /* adicionando transição suave */
+    transition: 0.2s ease-in-out;
+}
+
+a:hover{
+    /* elementos adicionados na transição suave */
+    padding: 6px;
+    background-color: #f0f8ffc0;
+    border-radius: 10px;
+    color: black;
+}
+
+li{
+    /* retirando o marcador dos itens da lista */
+    list-style-type: none;
+}

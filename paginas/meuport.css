@@ -1,0 +1,430 @@
+/* definindo variáveis com cores  */
+:root{
+    --green-h1: #378d37;
+    --red-h1: #d43636;
+    --yellow-h1: #ffff00;
+    --blue-h1: #2a2adf;
+    --cor-gow: #acecec;
+    --cor-rdr2: #cc7676;
+    --cor-uncharted: #b3b38c;
+    --cor-outlast: #467946;
+    --cor-crash: #dbab52;
+    --cor-detroit: #4f94e2;
+}
+
+html{
+    box-sizing: border-box;
+    background: url(../imagens/fundosobre.avif); /*Imagem de fundo*/
+    font-family: monocraft;
+    color: white;
+}
+
+/* definindo display flexível e centralizando */
+header{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    margin: 0;
+    padding: 5px;
+}
+
+li{
+    list-style-type: none; /*Retirando a marcação dos itens da lista*/
+}
+
+a{
+    text-decoration: none; /*Retirando o sublinhado do link*/
+    color: rgb(255, 255, 255);
+}
+
+#linksjogos{
+    width: 100%; /*Ocupará 100% em qualquer tamanho de tela*/
+    float: left; /*Flutuará á esquerda*/
+}
+
+/* lista god of war */
+
+#ligow{
+    width: 26%; /*Ocupará 26% em qualquer tamanho de tela*/
+    height: 30px;
+    padding: 1.3%;
+    background: url(../imagens/gow-188.jpeg); /*imagem de fundo da lista*/
+    transition: 0.2s; /*transição suave*/
+}
+
+#ligow:hover{
+    height: 138px;
+    transition: height 0.2s ease-in-out;
+}
+
+/* lista red dead redemption 2 */
+
+#lirdr2{
+    width: 26%;
+    height: 30px;
+    padding: 1.3%; 
+    margin-top: 1.5%;
+    background: url(../imagens/rdr2-188.png);
+    transition: 0.2s;
+}
+
+#lirdr2:hover{
+    height: 120px;
+    transition: height 0.2s ease-in-out;
+}
+
+/* lista uncharted 4*/
+
+#liuncharted{
+    width: 26%;
+    height: 30px;
+    padding: 1.3%;
+    margin-top: 1.5%;
+    background: url(../imagens/uncharted-188.jpeg);
+    transition: 0.2s;
+}
+
+#liuncharted:hover{
+    height: 138px;
+    transition: height 0.2 ease-in-out;
+}
+
+/* lista outlast 2  */
+
+#lioutlast2{
+    width: 26%;
+    height: 30px;
+    padding: 1.3%;
+    margin-top: 1.5%;
+    background: url(../imagens/outlast2-188.jpeg);
+    transition: 0.2s;
+}
+
+#lioutlast2:hover{
+    height: 138px;
+    transition: height 0.2s ease-in-out;
+}
+
+/* lista crash od the titans */
+
+#licrash{
+    width: 26%;
+    height: 30px;
+    padding: 1.3%;
+    margin-top: 1.5%;
+    background: url(../imagens/crash.jpeg);
+    transition: 0.2s;
+}
+
+#licrash:hover{
+    height: 138px;
+    transition: height 0.2s ease-in-out;
+}
+
+/* lista detroit become human */
+
+#lidetroit{
+    width: 26%;
+    height: 30px;
+    padding: 1.3%;
+    margin-top: 1.5%;
+    background: url(../imagens/detroit-300.jpg);
+    transition: 0.2s;
+}
+
+#lidetroit:hover{
+    height: 138px;
+    transition: height 0.2s ease-in-out;
+}
+
+section{
+    margin: 0 auto;
+    width: 60%;
+    text-align: justify;
+
+}
+
+
+#games{
+    /* definindo display flexível */
+    display: flex;
+    justify-content: space-evenly; 
+    flex-flow: row wrap; /*Quebra ao faltar espaço */
+    margin-top: 8%;
+}
+
+/* parágrafo de god of war */
+
+#gow p{
+    width: 100%;
+    padding: 2%;
+    font-size: 100%;
+    border-radius: 10px;
+    border: 3px solid #acecec80;
+    text-align: left;
+    color: #acecec;
+}
+
+#gow img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+#gow{
+    width: 26%;
+}
+
+/* parágrafo de red dead redemption2 */
+
+#rdr2 p{
+    width: 100%;
+    text-align: center;
+    font-size: 88%;
+    border-radius: 10px;
+    padding: 1.3%;
+    color: #cc7676;
+    border: 3px solid #773636;
+}
+
+#rdr2 img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+#rdr2{
+    width: 26%;
+}
+
+/*parágrafo de uncharted 4 */
+
+#uncharted p{
+    width: 100%;
+    font-size: 88%;
+    padding: 1.1%;
+    border-radius: 10px;
+    border: 3px solid #535341;
+    text-align: right;
+    color: #b3b38c;
+}
+
+#uncharted img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+#uncharted{
+    width: 26%;
+}
+
+/* parágrafo de outlast 2 */
+
+#outlast2 p{
+    width: 100%;
+    font-size: 95%;
+    text-align: left;
+    border-radius: 10px;
+    border: 3px solid #467946a8;
+    padding: 1.5%;
+    color: #467946;
+}
+
+#outlast2 img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+#outlast2{
+    width: 26%;
+    margin-top: 4%;
+}
+
+/* parágrafo de crash of the titans */
+
+#crash p{
+    width: 100%;
+    text-align: center;
+    font-size: 94%;
+    border: 3px solid #df9e27b0;
+    border-radius: 10px;
+    padding: 1.5%;
+    color: #dbab52;
+}
+
+#crash img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+#crash{
+    width: 26%;
+    margin-top: 4%;
+}
+
+/* palavra em destaque no p de crash */
+
+#crashspan{
+    color: orange;
+    text-transform: uppercase;
+}
+
+/* parágrafo de detroit become human */
+
+#detroit p{
+    width: 100%;
+    text-align: right;
+    font-size: 77%;
+    border: 3px solid #54719ce8;
+    border-radius: 10px;
+    padding: 1.3%;
+    color: #4f94e2;
+}
+
+#detroit img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+#detroit{
+    width: 26%;
+    margin-top: 4%;
+}
+
+#linksjogos{
+    margin-top: 4%;
+}
+
+/* h1 colorido do topo da página */
+
+#m1h1{
+    color: var(--green-h1);
+}
+
+#eh1{
+    color: var(--red-h1);
+}
+
+#s1h1{
+    color: var(--blue-h1);
+}
+
+#gh1{
+    color: var(--yellow-h1);
+}
+
+#a1h1{
+    color: var(--green-h1);
+}
+
+#m2h1{
+    color: var(--red-h1);
+}
+
+#s2h1{
+    color: var(--blue-h1);
+}
+
+#fh1{
+    color: var(--yellow-h1);
+}
+
+#a2h1{
+    color: var(--green-h1);
+}
+
+#vh1{
+    color: var(--red-h1);
+}
+
+#rh1{
+    color: var(--blue-h1);
+}
+
+#ih1{
+    color: var(--yellow-h1);
+}
+
+#th1{
+    color: var(--green-h1);
+}
+
+#oh1{
+    color: var(--red-h1);
+}
+
+/* palavras coloridas do p de introdução da página */
+
+#profsect{
+    color: var(--green-h1);
+}
+
+#gamesect{
+    color: var(--red-h1);
+}
+
+#transpsect{
+    color: var(--yellow-h1);
+}
+
+#desensect{
+    color: var(--blue-h1);
+    background-color: #ffffff42;
+}
+
+#nossasect{
+    color: var(--yellow-h1);
+}
+
+#habsect{
+    color: var(--green-h1);
+    text-transform: uppercase;
+}
+
+#marcsect{
+    color: var(--red-h1);
+}
+
+#diversect{
+    color: var(--blue-h1);
+    background-color: #ffffff38;
+}
+
+#compsect{
+    color: var(--yellow-h1);
+}
+
+#melhosect{
+    color: var(--green-h1);
+}
+
+#oferesect{
+    color: var(--green-h1);
+}
+
+/* media query para responsivar as imagens de fundo da lista dos jogos na steam, em telas até 1280px */
+
+@media(max-width: 1280px){
+    #ligow{
+        width: 42%;
+    }
+    #lirdr2{
+        width: 42%;
+    }
+
+    #liuncharted{
+        width: 42%;
+    }
+
+    #lioutlast2{
+        width: 42%;
+    }
+
+    #licrash{
+        width: 42%;
+    }
+
+    #lidetroit{
+        width: 42%;
+    }
+}

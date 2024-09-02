@@ -1,0 +1,61 @@
+html{
+    box-sizing: border-box;
+    background: url(../imagens/fundosobre.avif); /*Definindo imagem de fundo*/
+    color: white;
+}
+
+header{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    width: 30%;
+    text-align: left;
+}
+
+section{
+    float: left; /*todos os elementos flutuarão á esquerda um do outro*/
+    font-size: 23px;
+    width: 25%;
+    margin: 5px;
+    padding: 10px;
+    text-align: justify; /*Deixando o texto sem degradâncias, com alinhamento vertical uniforme*/
+    background-color: rgba(240, 248, 255, 0.144);
+    border: 3px dotted rgba(240, 248, 255, 0.418);
+    border-radius: 30px 10px;
+}
+
+aside{
+    float: right; /*Todos os elementos flutuarão á direita*/
+    margin: 19px;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.61);
+    border: 3px dashed black;
+    border-radius: 10px;
+}
+
+#img1{
+    display: block; /*renderizado como um bloco*/
+    margin-bottom: 10px;
+}
+
+ul{
+    margin: 10px;
+    padding: 10px;
+}
+
+li{
+    list-style-type: none; /*Retirando o marcador dos itens da lista*/
+}
+
+a{
+    /* transição suave */
+    transition: 0.2s ease-in-out;
+}
+
+/* adicionando elementos á transição suave ao passar o mouse sobre o link */
+a:hover{
+    padding: 10px;
+    background-color: #f0f8ffc0;
+    border-radius: 10px;
+}

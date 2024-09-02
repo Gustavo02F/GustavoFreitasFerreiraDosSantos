@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+    background: url(../imagens/fundo.avif); /*Defindi imagem de fundo*/
+    color: white;
+}
+
+header{
+    margin: 0 auto;
+    width: 30%;
+    padding: 3px;
+    text-align: center;
+    font-size: 25px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around; /*Adicionando espaço entre os links da lista*/
+    background-color: #f0f8ff8a;
+    border-radius: 13px 30px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 13px;
+}
+
+li{
+    font-size: 20px;
+    list-style-type: none; /*Retirando o marcador de items da lista*/
+    float: left; /*Todos os elementos flutuarão á esquerda um do outro*/
+}
+
+a{
+    color: black;
+    text-decoration: none; /*Retirando o sublinhado do link*/
+    transition: 0.3s; /*Adicionando transição suave*/
+}
+
+/* definindo transição suave ao passar o mouse sobre o link */
+a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
